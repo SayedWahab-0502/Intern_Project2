@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:fitsSystemWindows="true"
+        android:background="@drawable/rectangle3x">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_collapseMode="pin"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/group4953x">
+        </ImageView>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.6"
+            android:padding="17dp">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/steps"
+                android:scaleType="fitXY">
+
+            </ImageView>
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/continue_button"
+                android:id="@+id/id_start_game"
+                android:text="start game"
+                android:fontFamily="@font/montserrat_bolditalic"
+                android:textSize="20sp"
+                android:textColor="#fff">
+
+
+            </Button>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

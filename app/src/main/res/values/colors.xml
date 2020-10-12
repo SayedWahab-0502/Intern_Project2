@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <!-- Blue Grey 200 -->
+    <color name="colorBackgroundEnd">#b0bec5</color>
+    <!-- Grey 50 -->
+    <color name="colorBackgroundStart">#fafafa</color>
+
+
+
+    <color name="gradient_color_top">#1DCACA</color>
+    <color name="gradient_color_bottom">#A85DFC</color>
+
+    <color name="gradient_color2">#34B8B8</color> <!--Textcolor-->
+
+    <color name="gradient_bg">#54BFFFEB</color>
+    <color name="editext_border_color">#5AC0C0</color> <!--editext_color-->
+    <color name="color_for_signup">#289696</color>
+
+
+    <color name="text_nav_header_color">#008688</color>
+
+
+
+    <color name="icon_color">#2CB9A9</color>
+    <color name="bg_color_icon">#67D5B3</color>
+    <color name="bg_color_icon2">#8BE6C9</color>
+
+    <color name="menu_text_color">#242323</color>
+
+</resources>

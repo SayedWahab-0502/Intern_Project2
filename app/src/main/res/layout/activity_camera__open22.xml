@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Camera_Open11">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/female_image2">
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp">
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="40dp"
+                        android:text="Jennifer"
+                        android:fontFamily="@font/roboto_bold"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:paddingVertical="8dp"
+                        android:background="@drawable/camera_text_bg"
+                        android:textColor="#fff">
+                    </TextView>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/line_red"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp">
+                </ImageView>
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/men_image"></ImageView>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/line_red"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="50dp">
+                </ImageView>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_collapseMode="pin"
+        android:layout_marginTop="20dp"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/add_user">
+                </ImageView>
+
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:src="@drawable/number">
+                </ImageView>
+
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/block">
+                </ImageView>
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="@drawable/bottom_textview"
+            android:layout_alignParentBottom="true"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="@font/roboto_medium"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:textColor="#03686A"
+                android:textAlignment="center"
+                android:text="You have successfully reported the\nprofile."></TextView>
+
+
+
+        </LinearLayout>
+
+
+</RelativeLayout>
